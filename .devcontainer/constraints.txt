@@ -1,0 +1,4 @@
+# Constraints to avoid modifying project-level requirements
+# Apply via: pip install -r PixelRefer/requirements.txt -c .devcontainer/constraints.txt
+# This constrains huggingface_hub to a version compatible with gradio and other libs
+huggingface_hub==0.28.1
